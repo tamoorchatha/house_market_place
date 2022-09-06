@@ -12,6 +12,7 @@ function Navbar(){
     const location = useLocation();
 
     const pathMatchRoute = (route)=>{
+        // eslint-disable-next-line
         if(route == location.pathname){
             return true
         }
